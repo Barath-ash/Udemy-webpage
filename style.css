@@ -213,3 +213,47 @@ body{
      .learning:hover .learning__para{
         display: block;
      }
+     @media  screen and (max-width:800px) {
+        body{
+         font-size: 10px;
+        }
+        .page{
+         width: 200px;
+         height: inherit;
+         padding: -10px;
+ 
+        }
+      
+         
+      }
+ 
+      @media  screen and (max-width:600px) {
+         .course_card{
+ 
+             flex-basis: 20%;
+ 
+         }
+         .categories{
+             display: none;
+ 
+         }
+         .navbar__s2,.navbar__s3{
+             display: none;
+         }
+         .page{
+             width: 150px;
+             height: fit-content;
+             padding: 10px;
+         }
+         .navbar .nomie i{
+            display: block;
+         }
+         
+      }
+
+      @media  screen and (min-width:600px) {
+       .nomie{
+        display: none;
+     } 
+      }
+     
